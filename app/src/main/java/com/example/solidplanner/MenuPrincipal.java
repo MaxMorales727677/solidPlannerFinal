@@ -14,7 +14,6 @@ import android.graphics.Color;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ProgressBar;
@@ -29,12 +28,9 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
-import com.example.solidplanner.Configuracion.Configuracion;
 import com.example.solidplanner.Notas.Agregar_Nota;
-import com.example.solidplanner.Contactos.Listar_Contactos;
 import com.example.solidplanner.Notas.Listar_Notas;
 import com.example.solidplanner.Notas.Notas_Importantes;
-import com.example.solidplanner.Perfil.Perfil_Usuario;
 
 public class MenuPrincipal extends AppCompatActivity {
 
@@ -137,18 +133,16 @@ public class MenuPrincipal extends AppCompatActivity {
             }
         });
 
-        Contactos.setOnClickListener(new View.OnClickListener() {
+        /*Contactos.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 //Toast.makeText(MenuPrincipal.this, "Contactos", Toast.LENGTH_SHORT).show();
-                /*Obteniendo el dato uid del usuario*/
                 String uid_usuario = UidPrincipal.getText().toString();
                 Intent intent = new Intent(MenuPrincipal.this, Listar_Contactos.class);
-                /*Enviamos el dato a la siguiente actividad*/
                 intent.putExtra("Uid", uid_usuario);
                 startActivity(intent);
             }
-        });
+        });*/
 
         AcercaDe.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -327,7 +321,7 @@ public class MenuPrincipal extends AppCompatActivity {
         return super.onCreateOptionsMenu(menu);
     }
 
-    @Override
+    /*@Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         if (item.getItemId() == R.id.Perfil_usuario){
             startActivity(new Intent(MenuPrincipal.this, Perfil_Usuario.class));
@@ -340,7 +334,7 @@ public class MenuPrincipal extends AppCompatActivity {
             startActivity(intent);
         }
         return super.onOptionsItemSelected(item);
-    }
+    }*/
 
     private void SalirAplicacion() {
         firebaseAuth.signOut();

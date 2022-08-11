@@ -17,9 +17,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SolidPlanner">
         <activity
-            android:name=".Configuracion.Configuracion"
-            android:exported="false" />
-        <activity
             android:name=".Contactos.Actualizar_Contacto"
             android:exported="true" />
         <activity

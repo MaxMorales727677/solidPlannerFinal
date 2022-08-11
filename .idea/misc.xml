@@ -77,6 +77,21 @@
         <entry key="..\:/Users/Maxim/StudioProjects/AgendaOnline/app/src/main/res/layout/item_contacto.xml" value="0.2755208333333333" />
         <entry key="..\:/Users/Maxim/StudioProjects/AgendaOnline/app/src/main/res/menu/menu_agregar.xml" value="0.1" />
         <entry key="..\:/Users/Maxim/StudioProjects/AgendaOnline/app/src/main/res/menu/menu_agregar_contacto.xml" value="0.1" />
+        <entry key="..\:/Users/miche/AndroidStudioProjects/solidPlannerFinal/app/src/main/res/layout/activity_configuracion.xml" value="0.18" />
+        <entry key="..\:/Users/miche/AndroidStudioProjects/solidPlannerFinal/app/src/main/res/layout/activity_detalle_nota.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/miche/AndroidStudioProjects/solidPlannerFinal/app/src/main/res/layout/activity_listar_notas.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/miche/AndroidStudioProjects/solidPlannerFinal/app/src/main/res/layout/activity_menu_principal.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/miche/AndroidStudioProjects/solidPlannerFinal/app/src/main/res/layout/activity_perfil_usuario.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/miche/AndroidStudioProjects/solidPlannerFinal/app/src/main/res/layout/cuadro_dialogo_elegir_imagen.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/miche/AndroidStudioProjects/solidPlannerFinal/app/src/main/res/layout/cuadro_dialogo_establecer_telefono.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/miche/AndroidStudioProjects/solidPlannerFinal/app/src/main/res/layout/cuadro_dialogo_opciones_contacto.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/miche/AndroidStudioProjects/solidPlannerFinal/app/src/main/res/layout/item_contacto.xml" value="0.1" />
+        <entry key="..\:/Users/miche/AndroidStudioProjects/solidPlannerFinal/app/src/main/res/layout/item_nota.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/miche/AndroidStudioProjects/solidPlannerFinal/app/src/main/res/menu/menu_actualizar.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/miche/AndroidStudioProjects/solidPlannerFinal/app/src/main/res/menu/menu_agregar.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/miche/AndroidStudioProjects/solidPlannerFinal/app/src/main/res/menu/menu_agregar_contacto.xml" value="0.22" />
+        <entry key="..\:/Users/miche/AndroidStudioProjects/solidPlannerFinal/app/src/main/res/menu/menu_notas.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/miche/AndroidStudioProjects/solidPlannerFinal/app/src/main/res/menu/menu_principal.xml" value="0.20416666666666666" />
       </map>
     </option>
   </component>

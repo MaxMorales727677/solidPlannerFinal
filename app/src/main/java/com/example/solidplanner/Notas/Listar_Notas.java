@@ -120,8 +120,6 @@ public class Listar_Notas extends AppCompatActivity {
                         String descripcion = getItem(position).getDescripcion();
                         String fecha_nota = getItem(position).getFecha_nota();
                         String estado = getItem(position).getEstado();
-                        String hora = getItem(position).getHora();
-                        String horaF = getItem(position).getHoraF();
 
                         //Enviamos los datos a la siguiente actividad
                         Intent intent = new Intent(Listar_Notas.this, Detalle_Nota.class);
@@ -132,8 +130,6 @@ public class Listar_Notas extends AppCompatActivity {
                         intent.putExtra("titulo", titulo);
                         intent.putExtra("descripcion", descripcion);
                         intent.putExtra("fecha_nota", fecha_nota);
-                        intent.putExtra("hora_inicio", hora);
-                        intent.putExtra("hora_fin", horaF);
                         intent.putExtra("estado", estado);
                         startActivity(intent);
                     }
@@ -249,8 +245,6 @@ public class Listar_Notas extends AppCompatActivity {
                         String descripcion = getItem(position).getDescripcion();
                         String fecha_nota = getItem(position).getFecha_nota();
                         String estado = getItem(position).getEstado();
-                        String hora = getItem(position).getHora();
-                        String horaF = getItem(position).getHoraF();
 
                         //Enviamos los datos a la siguiente actividad
                         Intent intent = new Intent(Listar_Notas.this, Detalle_Nota.class);
@@ -261,8 +255,6 @@ public class Listar_Notas extends AppCompatActivity {
                         intent.putExtra("titulo", titulo);
                         intent.putExtra("descripcion", descripcion);
                         intent.putExtra("fecha_nota", fecha_nota);
-                        intent.putExtra("hora_inicio", hora);
-                        intent.putExtra("hora_fin", horaF);
                         intent.putExtra("estado", estado);
                         startActivity(intent);
                     }
